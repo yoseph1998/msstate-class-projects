@@ -1,0 +1,51 @@
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('1', 'god', 'e0779be79b0021e6cb4e2eb69c1fd24b', '1'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('2', 'admin', 'e0779be79b0021e6cb4e2eb69c1fd24b', '1'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('3', 'mod', 'e0779be79b0021e6cb4e2eb69c1fd24b', '2'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('4', 'bob', '51acaf53d3d573f2d3af8acba9e15bb9', '1'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('5', 'michael', '5f42b6177034ed7477290e6d57b09217', '3'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('6', 'sarah', 'e0779be79b0021e6cb4e2eb69c1fd24b', '3'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('7', 'mod2', 'e0779be79b0021e6cb4e2eb69c1fd24b', '2'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('8', 'admin2', 'e0779be79b0021e6cb4e2eb69c1fd24b', '1'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('9', 'suzie', 'e0779be79b0021e6cb4e2eb69c1fd24b', '3'); 
+INSERT INTO users(user_id, username, password_hash, permissions)
+VALUES ('10', 'lovemuffin', 'e0779be79b0021e6cb4e2eb69c1fd24b', '3'); 
+
+
+
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('1', '1', 'White Bread', '2.95', '75', 'Food', 'Starkville', 'Just plain ole White Bread'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('2', '2', 'Skateboard', '15', '10', 'Sports', 'Starkville', 'For looking rad and awesome'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('3', '1', 'Basketball', '10.50', '25', 'Sports', 'Starkville', 'An orange sports ball for shooting some hoops'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('4', '7', 'Kitchen Knife', '7', '80', 'Kitchen', 'Starkville', 'Formerly starred in Halloween 2'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('5', '68', 'Raviolli', '0.99', '75', 'Food', 'Starkville', 'Chef Boy says it is good'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('6', '8', 'Candles', '5.50', '2', 'Home', 'Memphis', 'For setting the mood and your curtains on fire'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('7', '0', 'Tractor', '13.00', '75', 'Fun', 'Memphis', 'Just a big ole tractor'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('8', '89', 'Spork', '2.95', '75', 'Kitchen', 'Starkville', 'The best utensil'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('9', '100', 'Muffins', '1.99', '75', 'Food', 'Starkville', 'Gotta love muffins'); 
+INSERT INTO items(id, item_number, name, price, quantity, department, store, description)
+VALUES ('10', '3', 'Uno', '7.99', '2', 'Fun', 'Memphis', 'It's not Go Fish Grandma'); 
+
+
+INSERT INTO archives(id, item_number, name, price, quantity, department, store, description)
+VALUES ('1', '23', 'Playing Cards', '2.95', '0', 'Fun', 'Starkville', 'Great for throwing'); 
+INSERT INTO archives(id, item_number, name, price, quantity, department, store, description)
+VALUES ('2', '23', 'Liverwurst', '2.95', '0', 'Food', 'Starkville', 'Is the wurst'); 
+INSERT INTO archives(id, item_number, name, price, quantity, department, store, description)
+VALUES ('3', '23', 'Garth Brooks Collection Cassettes', '2.95', '0', 'Fun', 'Starkville', 'It was good while it lasted'); 
